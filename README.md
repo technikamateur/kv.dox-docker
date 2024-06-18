@@ -18,6 +18,7 @@ Grundlage ist ein Debian Image. RAM Verbrauch liegt bei 50-100 MB.
 - kv.dox .deb file neben dem Dockerfile speichern
 - Docker image bauen: `docker build -t kvdox:1.0 .`
 - Docker container starten: `docker compose up -d`
+Fertig. Anschließend ist der Container auf Port 4443 errreichbar.
 
 ## Hinweis
 Die Konfiguration wird persistent in einem Unterordner *config* abgelegt. Jeder ist für zusätzliche Backups der Konfiguration insbesondere vor einem Update des Docker containers selbst verantwortlich! Ich übernehme keinerlei Haftung. Für mehr Informationen siehe *Disclaimer of Warranty* in *LICENSE*.

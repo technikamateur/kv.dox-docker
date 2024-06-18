@@ -1,6 +1,6 @@
 services:
   jellyfin:
-    image: kvdox:latest
+    image: kvdox:1.0
     container_name: kvdox
     ports:
       - 465:465

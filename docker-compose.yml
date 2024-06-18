@@ -7,5 +7,5 @@ services:
       - 995:995
       - 4443:4443
     volumes:
-      - ./lol:/usr/bin/KBV/kv.dox.KIM.Clientmodul/ApplicationData
+      - ./config:/usr/bin/KBV/kv.dox.KIM.Clientmodul/ApplicationData
     restart: unless-stopped

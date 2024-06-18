@@ -1,0 +1,11 @@
+services:
+  jellyfin:
+    image: kvdox:latest
+    container_name: kvdox
+    ports:
+      - 465:465
+      - 995:995
+      - 4443:4443
+    volumes:
+      - ./lol:/usr/bin/KBV/kv.dox.KIM.Clientmodul/ApplicationData
+    restart: unless-stopped

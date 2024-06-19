@@ -12,4 +12,6 @@ EXPOSE 465/tcp
 EXPOSE 995/tcp
 EXPOSE 4443/tcp
 
+VOLUME /usr/bin/KBV/kv.dox.KIM.Clientmodul/ApplicationData
+
 LABEL description="Docker Container for kvdox application."

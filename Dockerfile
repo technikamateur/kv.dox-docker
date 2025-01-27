@@ -13,5 +13,6 @@ EXPOSE 995/tcp
 EXPOSE 4443/tcp
 
 VOLUME /usr/bin/KBV/kv.dox.KIM.Clientmodul/ApplicationData
+VOLUME /root/.aspnet
 
 LABEL description="Docker Container for kvdox application."

@@ -19,7 +19,7 @@ Grundlage ist ein Debian Image. RAM Verbrauch liegt bei 50-100 MB.
 - Docker image bauen: `docker build -t kvdox:1.0 .`
 - Docker container starten: `docker compose up -d`
 
-Fertig. Anschließend ist der Container auf Port 4443 errreichbar. `https` nicht vergessen.
+Fertig. Anschließend ist der Container unter `https://<ip>:4443` errreichbar.
 
 ## Hinweis
 Die Konfiguration wird persistent in einem Unterordner *config* abgelegt. Jeder ist für zusätzliche Backups der Konfiguration insbesondere vor einem Update des Docker containers selbst verantwortlich! Ich übernehme keinerlei Haftung. Für mehr Informationen siehe *Disclaimer of Warranty* in *LICENSE*.

@@ -1,6 +1,6 @@
-FROM debian:bookworm
+FROM debian:trixie-slim
 RUN apt update
-RUN apt install -y net-tools libicu72 libssl3 ca-certificates
+RUN apt install -y net-tools libicu76 libssl3t64 ca-certificates
 
 COPY *.deb /tmp/
 

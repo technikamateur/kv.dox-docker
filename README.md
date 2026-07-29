@@ -8,13 +8,13 @@ Die Installation im Netzwerk hat den Vorteil, dass mehere Clients damit verbunde
 ## Motivation
 In vielen Praxen findet sich (zumindest ein einfacher) Linux Server zur Datenspeicherung. Ziel des Projekts ist es, kv.dox auf jedem System (auf dem Docker läuft) mit wenigen Schritten zu deployen.
 
-Grundlage ist ein Debian Image. RAM Verbrauch liegt bei 50-100 MB.
-
 ## Vorraussetzung
-- Ein Linux Server mit Docker mit 500 MB freiem Speicher
+- Ein Linux Server mit Docker und git
+- 1 GB Plattenplatz
+- 200 MB freier RAM
 
 ## Installation
-- Repo clonen
+- Repo clonen: `git clone https://github.com/technikamateur/kv.dox-docker.git`
 - kv.dox `.deb` file neben dem Dockerfile speichern
 - Docker image bauen: `docker build -t kvdox:1.0 .`
 - Docker container starten: `docker compose up -d`
